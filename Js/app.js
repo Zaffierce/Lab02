@@ -11,45 +11,45 @@
 //  prompt(Wrong answer, try again)
 
 var doesCoreyLikePizza = prompt('Does Corey like Pizza?');
-if (doesCoreyLikePizza.toLowerCase() === 'yes' && 'y') {
+if (doesCoreyLikePizza.toLowerCase() === 'yes' || doesCoreyLikePizza.toLowerCase() === 'y') {
   alert('Absolutely Correct!');
-} else if (doesCoreyLikePizza.toLowerCase() != 'no' && 'n') {
+} else if (doesCoreyLikePizza.toLowerCase() != 'no' || doesCoreyLikePizza.toLowerCase() != 'n') {
   alert('WRONG!');
 } else {
   alert('WRONG!');
 }
 
 var doesCoreyLikeTheOffice = prompt('Does Corey like the Office?');
-if (doesCoreyLikeTheOffice.toLowerCase() === 'yes' && 'y') {
+if (doesCoreyLikeTheOffice.toLowerCase() === 'yes' || doesCoreyLikeTheOffice.toLocaleLowerCase() === 'y') {
   alert('Abosultely Right!');
-} else if (doesCoreyLikeTheOffice.toLowerCase() != 'no'&&'n') {
+} else if (doesCoreyLikeTheOffice.toLowerCase() != 'no' || doesCoreyLikeTheOffice.toLowerCase() != 'n') {
   alert('Wrong anwser!');
 } else {
   alert('Wrong answer!');
 }
 
 var doesCoreyLikeWine = prompt('Does Corey like wine?');
-if (doesCoreyLikeWine.toLowerCase() === 'yes' && 'y') {
+if (doesCoreyLikeWine.toLowerCase() === 'yes' || doesCoreyLikeWine.toLowerCase() === 'y') {
   alert('Abosultely wrong!');
-} else if (doesCoreyLikeWine.toLowerCase() != 'no' && 'n') {
+} else if (doesCoreyLikeWine.toLowerCase() != 'no' || doesCoreyLikeWine.toLowerCase() != 'n') {
   alert('Correct!');
 } else {
   alert('Correct!');
 }
 
 var doesCoreyLikeSalad = prompt('Does Corey like Salads?');
-if (doesCoreyLikeSalad.toLowerCase() === 'yes' && 'y') {
+if (doesCoreyLikeSalad.toLowerCase() === 'yes' || doesCoreyLikeSalad.toLowerCase() === 'y') {
   alert('Abosultely Right!');
-} else if (doesCoreyLikeSalad.toLowerCase() != 'no'&&'n') {
+} else if (doesCoreyLikeSalad.toLowerCase() != 'no' || doesCoreyLikeSalad.toLowerCase != 'n') {
   alert('Wrong anwser!');
 } else {
   alert('Wrong answer!');
 }
 
 var doesCoreyLikeNeckCramps = prompt('Does Corey like neck cramps?');
-if (doesCoreyLikeNeckCramps.toLowerCase() === 'yes' && 'y') {
+if (doesCoreyLikeNeckCramps.toLowerCase() === 'yes' || doesCoreyLikeNeckCramps.toLowerCase() === 'y') {
   alert('Abosultely wrong!');
-} else if (doesCoreyLikeNeckCramps.toLowerCase() != 'no'&&'n') {
+} else if (doesCoreyLikeNeckCramps.toLowerCase() != 'no' || doesCoreyLikeNeckCramps.toLowerCase() != 'n') {
   alert('Right anwser!');
 } else {
   alert('Right answer!');
