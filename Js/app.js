@@ -72,7 +72,7 @@ var guessCounter = 0;
 
 while(guessCounter < 3) {
 
-  var guessCoreysFavoriteDog = prompt('What is Corey/s favorite Dog?');
+  var guessCoreysFavoriteDog = prompt('What is Corey\'s favorite Dog?');
 
   if(guessCoreysFavoriteDog === coreysFavoriteDog) {
     alert('Great Job!!!')
@@ -91,7 +91,7 @@ guessCounter = 0;
 
 while(guessCounter < 3) {
 
-  var guessCoreysFavoriteFood = prompt('What is Corey/s favorite food?');
+  var guessCoreysFavoriteFood = prompt('What is Corey\'s favorite food?');
 
   if(guessCoreysFavoriteFood === coreysFavoriteFood) {
     alert('Great Job!!!')
@@ -99,7 +99,7 @@ while(guessCounter < 3) {
   } else {
     alert('Pathetic')
   }
-  console.log('My favorite food is' + coreysFavoriteFood)
+  console.log('My favorite food is ' + coreysFavoriteFood)
   guessCounter++;
 }
 
@@ -116,8 +116,8 @@ while(guessCounter < 3) {
   } else {
     alert('You shouldn/t have been born')
   }
-  console.log('My faborite sport is ' + coreysFavoriteSport)
-  guessCounter++
+  console.log('My favorite sport is ' + coreysFavoriteSport)
+  guessCounter++;
 }
 
 
